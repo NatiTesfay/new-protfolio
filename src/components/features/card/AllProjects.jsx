@@ -21,8 +21,8 @@ function AllProjects() {
             ></div>
             <div className="avatar mx-auto bg-white">
               <MDBCardImage
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-                className="rounded-circle img-fluid"
+                src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                className=" img-fluid"
               />
             </div>
             <MDBCardBody>
