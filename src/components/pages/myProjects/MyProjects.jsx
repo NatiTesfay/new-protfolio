@@ -4,11 +4,11 @@ import React from "react";
 function MyProjects() {
   return (
     <>
-      <MDBContainer className="d-flex justify-content-between p-4 mt-5 ">
+      <div className="d-flex justify-content-evenly p-5 mt-5  bg-dark bg-gradient">
         <MDBRow>
           <MDBCol>
-            <h1>Games</h1>
-            <p>Tic Tac Toe</p>
+            <h3 className=" text-light">Games</h3>
+            <p className=" text-light">Tic Tac Toe</p>
             <div className="avatar mx-auto bg-white bg-image hover-zoom">
               <a href="https://voluble-longma-82a461.netlify.app/">
                 <MDBCardImage
@@ -22,8 +22,8 @@ function MyProjects() {
         </MDBRow>
         <MDBRow>
           <MDBCol>
-            <h1>Frontend</h1>
-            <p>Cost management App</p>
+            <h3 className=" text-light">Frontend</h3>
+            <p className=" text-light">Cost management App</p>
             <div className="avatar mx-auto bg-white bg-image hover-zoom">
               <a href="https://cheerful-buttercream-ab2b51.netlify.app/home">
                 <MDBCardImage
@@ -37,10 +37,10 @@ function MyProjects() {
         </MDBRow>
         <MDBRow>
           <MDBCol>
-            <h1>Full Stack</h1>
+            <h3 className=" text-light">Full Stack</h3>
           </MDBCol>
         </MDBRow>
-      </MDBContainer>
+      </div>
     </>
   );
 }

@@ -6,8 +6,8 @@ function HomeUpper() {
     <MDBContainer className="my-5">
       <MDBRow>
         <MDBCol md="8" offsetMd="4">
-          <h4>Motivation:</h4>
-          <p>
+          <h4 className="text-light" >Motivation:</h4>
+          <p className="text-light">
             A highly motivated full-stack developer with a solid work ethic,
             works well independently as well as part of a team. Fast and
             independent learning Committed for professionalism & ability to
@@ -15,8 +15,8 @@ function HomeUpper() {
           </p>
         </MDBCol>
         <MDBCol md="8" offsetMd="4">
-          <h4>future plans:</h4>
-          <p>
+          <h4 className="text-light">future plans:</h4>
+          <p className="text-light">
             After graduating from the software development course, I would like
             to continue to develop my abilities and pursue a degree in computer
             science
